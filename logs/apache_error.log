@@ -1,0 +1,322 @@
+[Tue May 05 13:29:39.183955 2015] [mpm_winnt:notice] [pid 6736:tid 404] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue May 05 13:29:39.183955 2015] [mpm_winnt:notice] [pid 6736:tid 404] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue May 05 13:29:39.184955 2015] [core:notice] [pid 6736:tid 404] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue May 05 13:29:39.185955 2015] [mpm_winnt:notice] [pid 6736:tid 404] AH00418: Parent: Created child process 1172
+[Tue May 05 13:29:39.513974 2015] [mpm_winnt:notice] [pid 1172:tid 312] AH00354: Child: Starting 64 worker threads.
+[Tue May 05 14:06:58.630439 2015] [authz_core:error] [pid 1172:tid 812] [client 127.0.0.1:54539] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Tue May 05 14:06:58.630439 2015] [authz_core:error] [pid 1172:tid 836] [client 127.0.0.1:54540] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Tue May 05 14:06:58.630439 2015] [authz_core:error] [pid 1172:tid 800] [client 127.0.0.1:54541] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Tue May 05 14:07:01.343783 2015] [authz_core:error] [pid 1172:tid 812] [client 127.0.0.1:54539] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Tue May 05 14:07:01.343783 2015] [authz_core:error] [pid 1172:tid 836] [client 127.0.0.1:54540] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Tue May 05 14:07:01.343783 2015] [authz_core:error] [pid 1172:tid 800] [client 127.0.0.1:54541] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Tue May 05 14:07:01.343783 2015] [authz_core:error] [pid 1172:tid 820] [client 127.0.0.1:54544] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 11:46:47.859098 2015] [mpm_winnt:notice] [pid 6736:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 06 11:46:49.887101 2015] [mpm_winnt:notice] [pid 1172:tid 312] AH00364: Child: All worker threads have exited.
+[Wed May 06 11:46:50.027501 2015] [mpm_winnt:notice] [pid 6736:tid 404] AH00430: Parent: Child process 1172 exited successfully.
+[Wed May 06 15:31:32.040534 2015] [mpm_winnt:notice] [pid 4636:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed May 06 15:31:32.051534 2015] [mpm_winnt:notice] [pid 4636:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed May 06 15:31:32.051534 2015] [core:notice] [pid 4636:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed May 06 15:31:32.051534 2015] [mpm_winnt:notice] [pid 4636:tid 400] AH00418: Parent: Created child process 6316
+[Wed May 06 15:31:32.335551 2015] [mpm_winnt:notice] [pid 6316:tid 308] AH00354: Child: Starting 64 worker threads.
+[Wed May 06 15:32:50.758893 2015] [authz_core:error] [pid 6316:tid 816] [client 127.0.0.1:50217] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 15:32:50.758893 2015] [authz_core:error] [pid 6316:tid 828] [client 127.0.0.1:50216] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 15:32:50.780396 2015] [authz_core:error] [pid 6316:tid 808] [client 127.0.0.1:50219] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 15:32:50.780396 2015] [authz_core:error] [pid 6316:tid 824] [client 127.0.0.1:50218] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 17:10:43.797175 2015] [authz_core:error] [pid 6316:tid 816] [client 127.0.0.1:51032] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Wed May 06 17:10:43.801175 2015] [authz_core:error] [pid 6316:tid 792] [client 127.0.0.1:51033] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Wed May 06 17:10:43.801175 2015] [authz_core:error] [pid 6316:tid 828] [client 127.0.0.1:51034] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Wed May 06 17:10:45.850435 2015] [authz_core:error] [pid 6316:tid 792] [client 127.0.0.1:51033] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 17:10:45.850435 2015] [authz_core:error] [pid 6316:tid 828] [client 127.0.0.1:51034] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 17:10:45.850435 2015] [authz_core:error] [pid 6316:tid 816] [client 127.0.0.1:51032] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Wed May 06 17:10:45.850435 2015] [authz_core:error] [pid 6316:tid 824] [client 127.0.0.1:51035] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 06:00:16.381991 2015] [mpm_winnt:notice] [pid 4636:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 07 06:00:20.437998 2015] [mpm_winnt:notice] [pid 6316:tid 308] AH00364: Child: All worker threads have exited.
+[Thu May 07 06:00:22.637602 2015] [mpm_winnt:notice] [pid 4636:tid 400] AH00430: Parent: Child process 6316 exited successfully.
+[Thu May 07 13:58:39.713478 2015] [mpm_winnt:notice] [pid 5620:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Thu May 07 13:58:39.751480 2015] [mpm_winnt:notice] [pid 5620:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Thu May 07 13:58:39.752480 2015] [core:notice] [pid 5620:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Thu May 07 13:58:39.760481 2015] [mpm_winnt:notice] [pid 5620:tid 400] AH00418: Parent: Created child process 6492
+[Thu May 07 13:58:40.032496 2015] [mpm_winnt:notice] [pid 6492:tid 308] AH00354: Child: Starting 64 worker threads.
+[Thu May 07 16:07:28.254664 2015] [authz_core:error] [pid 6492:tid 816] [client 127.0.0.1:49420] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:07:28.254664 2015] [authz_core:error] [pid 6492:tid 796] [client 127.0.0.1:49422] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:07:28.254664 2015] [authz_core:error] [pid 6492:tid 824] [client 127.0.0.1:49421] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:07:30.126772 2015] [authz_core:error] [pid 6492:tid 796] [client 127.0.0.1:49422] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:30.126772 2015] [authz_core:error] [pid 6492:tid 824] [client 127.0.0.1:49421] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:30.127772 2015] [authz_core:error] [pid 6492:tid 816] [client 127.0.0.1:49420] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:30.127772 2015] [authz_core:error] [pid 6492:tid 792] [client 127.0.0.1:49423] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:49.023852 2015] [authz_core:error] [pid 6492:tid 792] [client 127.0.0.1:49424] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:49.025852 2015] [authz_core:error] [pid 6492:tid 792] [client 127.0.0.1:49424] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:49.026853 2015] [authz_core:error] [pid 6492:tid 824] [client 127.0.0.1:49426] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:49.027853 2015] [authz_core:error] [pid 6492:tid 816] [client 127.0.0.1:49425] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:54.512166 2015] [authz_core:error] [pid 6492:tid 824] [client 127.0.0.1:49426] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:54.513166 2015] [authz_core:error] [pid 6492:tid 796] [client 127.0.0.1:49429] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:54.513166 2015] [authz_core:error] [pid 6492:tid 792] [client 127.0.0.1:49424] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:07:54.514166 2015] [authz_core:error] [pid 6492:tid 816] [client 127.0.0.1:49425] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 07 16:36:43.133038 2015] [authz_core:error] [pid 6492:tid 816] [client 127.0.0.1:63178] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:36:43.133038 2015] [authz_core:error] [pid 6492:tid 792] [client 127.0.0.1:63180] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:36:43.134038 2015] [authz_core:error] [pid 6492:tid 824] [client 127.0.0.1:63181] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 16:36:43.134038 2015] [authz_core:error] [pid 6492:tid 796] [client 127.0.0.1:63179] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 07 18:54:29.212830 2015] [:error] [pid 6492:tid 796] [client 127.0.0.1:62484] script 'C:/wamp/www/stark/index.php' not found or unable to stat, referer: http://localhost/stark/hello.php
+[Thu May 07 18:55:32.703462 2015] [:error] [pid 6492:tid 796] [client 127.0.0.1:62487] script 'C:/wamp/www/stark/index.php' not found or unable to stat, referer: http://localhost/stark/hello.php
+[Thu May 07 19:08:57.850514 2015] [:error] [pid 6492:tid 796] [client 127.0.0.1:62610] script 'C:/wamp/www/stark/download_img.php' not found or unable to stat, referer: http://localhost/stark/hello.php
+[Thu May 07 19:14:18.465852 2015] [:error] [pid 6492:tid 796] [client 127.0.0.1:62628] script 'C:/wamp/www/stark/download_img.php' not found or unable to stat, referer: http://localhost/stark/hello.php
+[Thu May 07 19:15:35.176239 2015] [:error] [pid 6492:tid 796] [client 127.0.0.1:62711] script 'C:/wamp/www/stark/download_img.php' not found or unable to stat, referer: http://localhost/stark/hello.php
+[Thu May 07 20:52:22.105134 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57038] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:52:28.279418 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57040] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:53:11.888455 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57042] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:53:13.328138 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57042] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:53:13.779195 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57042] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:53:14.004724 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57042] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Thu May 07 20:53:14.213251 2015] [core:error] [pid 6492:tid 796] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:57042] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 00:20:18.729964 2015] [:error] [pid 6492:tid 824] [client 127.0.0.1:63018] script 'C:/wamp/www/class.php' not found or unable to stat
+[Fri May 08 13:14:31.616534 2015] [core:warn] [pid 1188:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 08 13:14:32.425580 2015] [mpm_winnt:notice] [pid 1188:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 08 13:14:32.425580 2015] [mpm_winnt:notice] [pid 1188:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 08 13:14:32.425580 2015] [core:notice] [pid 1188:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 08 13:14:32.426580 2015] [mpm_winnt:notice] [pid 1188:tid 280] AH00418: Parent: Created child process 6188
+[Fri May 08 13:14:32.730597 2015] [mpm_winnt:notice] [pid 6188:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 08 14:30:50.490993 2015] [:error] [pid 6188:tid 816] [client 127.0.0.1:56426] script 'C:/wamp/www/stark/upload.php' not found or unable to stat, referer: http://localhost/stark/AutoFile.php
+[Fri May 08 19:35:21.264022 2015] [authz_core:error] [pid 6188:tid 808] [client 127.0.0.1:49271] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Fri May 08 19:35:21.266022 2015] [authz_core:error] [pid 6188:tid 800] [client 127.0.0.1:49272] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Fri May 08 19:35:21.266022 2015] [authz_core:error] [pid 6188:tid 808] [client 127.0.0.1:49271] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Fri May 08 19:35:21.266022 2015] [authz_core:error] [pid 6188:tid 828] [client 127.0.0.1:49273] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Fri May 08 19:35:39.128043 2015] [authz_core:error] [pid 6188:tid 808] [client 127.0.0.1:49277] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:39.128043 2015] [authz_core:error] [pid 6188:tid 816] [client 127.0.0.1:49278] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:39.128043 2015] [authz_core:error] [pid 6188:tid 824] [client 127.0.0.1:49279] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:39.128043 2015] [authz_core:error] [pid 6188:tid 792] [client 127.0.0.1:49280] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:39.128043 2015] [authz_core:error] [pid 6188:tid 800] [client 127.0.0.1:49281] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:39.129044 2015] [authz_core:error] [pid 6188:tid 828] [client 127.0.0.1:49282] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Fri May 08 19:35:44.598356 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:49281] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:16.482180 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:17.241223 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:17.432234 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:17.619245 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:17.788255 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:17.936263 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 19:36:18.113273 2015] [core:error] [pid 6188:tid 800] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:58302] AH00127: Cannot map GET /stark/%3Cbr%20/%3E%3Cfont%20size='1'%3E%3Ctable%20class='xdebug-error%20xe-notice'%20dir='ltr'%20border='1'%20cellspacing='0'%20cellpadding='1'%3E%3Ctr%3E%3Cth%20align='left'%20bgcolor=' HTTP/1.1 to file, referer: http://localhost/stark/hello.php
+[Fri May 08 20:12:05.673107 2015] [mpm_winnt:notice] [pid 1188:tid 280] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 08 20:12:07.674221 2015] [mpm_winnt:notice] [pid 6188:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 08 20:12:07.742225 2015] [mpm_winnt:notice] [pid 1188:tid 280] AH00430: Parent: Child process 6188 exited successfully.
+[Fri May 08 20:12:08.026241 2015] [mpm_winnt:notice] [pid 1768:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 08 20:12:08.026241 2015] [mpm_winnt:notice] [pid 1768:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 08 20:12:08.026241 2015] [core:notice] [pid 1768:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 08 20:12:08.026241 2015] [mpm_winnt:notice] [pid 1768:tid 400] AH00418: Parent: Created child process 6920
+[Fri May 08 20:12:08.275256 2015] [mpm_winnt:notice] [pid 6920:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 08 20:12:14.118590 2015] [mpm_winnt:notice] [pid 1768:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 08 20:12:16.118704 2015] [mpm_winnt:notice] [pid 6920:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 08 20:12:16.133705 2015] [mpm_winnt:notice] [pid 1768:tid 400] AH00430: Parent: Child process 6920 exited successfully.
+[Fri May 08 20:12:16.403720 2015] [mpm_winnt:notice] [pid 6772:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 08 20:12:16.403720 2015] [mpm_winnt:notice] [pid 6772:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 08 20:12:16.403720 2015] [core:notice] [pid 6772:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 08 20:12:16.404721 2015] [mpm_winnt:notice] [pid 6772:tid 400] AH00418: Parent: Created child process 6800
+[Fri May 08 20:12:16.647734 2015] [mpm_winnt:notice] [pid 6800:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 08 20:12:30.648535 2015] [mpm_winnt:notice] [pid 6772:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 08 20:12:32.648650 2015] [mpm_winnt:notice] [pid 6800:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 08 20:12:32.664651 2015] [mpm_winnt:notice] [pid 6772:tid 400] AH00430: Parent: Child process 6800 exited successfully.
+[Fri May 08 20:12:32.942666 2015] [mpm_winnt:notice] [pid 6400:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 08 20:12:32.942666 2015] [mpm_winnt:notice] [pid 6400:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 08 20:12:32.942666 2015] [core:notice] [pid 6400:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 08 20:12:32.942666 2015] [mpm_winnt:notice] [pid 6400:tid 400] AH00418: Parent: Created child process 4492
+[Fri May 08 20:12:33.207682 2015] [mpm_winnt:notice] [pid 4492:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 08 20:12:46.351433 2015] [mpm_winnt:notice] [pid 6400:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 08 20:12:48.351548 2015] [mpm_winnt:notice] [pid 4492:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 08 20:12:48.366549 2015] [mpm_winnt:notice] [pid 6400:tid 400] AH00430: Parent: Child process 4492 exited successfully.
+[Fri May 08 20:12:48.619563 2015] [mpm_winnt:notice] [pid 5392:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 08 20:12:48.619563 2015] [mpm_winnt:notice] [pid 5392:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 08 20:12:48.619563 2015] [core:notice] [pid 5392:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 08 20:12:48.620563 2015] [mpm_winnt:notice] [pid 5392:tid 400] AH00418: Parent: Created child process 6040
+[Fri May 08 20:12:48.909580 2015] [mpm_winnt:notice] [pid 6040:tid 308] AH00354: Child: Starting 64 worker threads.
+[Mon May 11 14:21:00.224195 2015] [core:warn] [pid 2024:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 11 14:21:01.543270 2015] [mpm_winnt:notice] [pid 2024:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon May 11 14:21:01.543270 2015] [mpm_winnt:notice] [pid 2024:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon May 11 14:21:01.543270 2015] [core:notice] [pid 2024:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon May 11 14:21:01.544270 2015] [mpm_winnt:notice] [pid 2024:tid 280] AH00418: Parent: Created child process 4900
+[Mon May 11 14:21:01.826286 2015] [mpm_winnt:notice] [pid 4900:tid 308] AH00354: Child: Starting 64 worker threads.
+[Mon May 11 22:12:47.539927 2015] [mpm_winnt:notice] [pid 2024:tid 280] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 11 22:12:50.535132 2015] [mpm_winnt:notice] [pid 4900:tid 308] AH00364: Child: All worker threads have exited.
+[Mon May 11 22:12:51.970335 2015] [mpm_winnt:notice] [pid 2024:tid 280] AH00430: Parent: Child process 4900 exited successfully.
+[Thu May 14 11:36:58.498088 2015] [mpm_winnt:notice] [pid 4552:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Thu May 14 11:36:58.506088 2015] [mpm_winnt:notice] [pid 4552:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Thu May 14 11:36:58.506088 2015] [core:notice] [pid 4552:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Thu May 14 11:36:58.507088 2015] [mpm_winnt:notice] [pid 4552:tid 400] AH00418: Parent: Created child process 2236
+[Thu May 14 11:36:58.859108 2015] [mpm_winnt:notice] [pid 2236:tid 308] AH00354: Child: Starting 64 worker threads.
+[Thu May 14 11:43:57.221645 2015] [authz_core:error] [pid 2236:tid 800] [client 127.0.0.1:57316] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:43:57.221645 2015] [authz_core:error] [pid 2236:tid 808] [client 127.0.0.1:57317] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:43:57.221645 2015] [authz_core:error] [pid 2236:tid 816] [client 127.0.0.1:57319] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:43:57.221645 2015] [authz_core:error] [pid 2236:tid 824] [client 127.0.0.1:57318] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:43:57.222645 2015] [authz_core:error] [pid 2236:tid 792] [client 127.0.0.1:57321] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:43:57.222645 2015] [authz_core:error] [pid 2236:tid 832] [client 127.0.0.1:57320] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/
+[Thu May 14 11:44:00.368825 2015] [authz_core:error] [pid 2236:tid 832] [client 127.0.0.1:57320] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 14 11:44:00.368825 2015] [authz_core:error] [pid 2236:tid 792] [client 127.0.0.1:57321] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 14 11:44:00.368825 2015] [authz_core:error] [pid 2236:tid 824] [client 127.0.0.1:57318] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 14 11:44:00.368825 2015] [authz_core:error] [pid 2236:tid 816] [client 127.0.0.1:57319] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/stark/hello/
+[Thu May 14 15:54:12.815431 2015] [mpm_winnt:notice] [pid 4552:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 14 15:54:14.843435 2015] [mpm_winnt:notice] [pid 2236:tid 308] AH00364: Child: All worker threads have exited.
+[Thu May 14 15:54:15.015035 2015] [mpm_winnt:notice] [pid 4552:tid 400] AH00430: Parent: Child process 2236 exited successfully.
+[Fri May 15 12:53:57.618288 2015] [mpm_winnt:notice] [pid 2196:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 12:53:57.640289 2015] [mpm_winnt:notice] [pid 2196:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 12:53:57.640289 2015] [core:notice] [pid 2196:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 12:53:57.640289 2015] [mpm_winnt:notice] [pid 2196:tid 400] AH00418: Parent: Created child process 3668
+[Fri May 15 12:53:58.142317 2015] [mpm_winnt:notice] [pid 3668:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 13:08:46.809711 2015] [:error] [pid 3668:tid 832] [client 127.0.0.1:53250] script 'C:/wamp/www/storesettings.php' not found or unable to stat
+[Fri May 15 13:08:47.462748 2015] [:error] [pid 3668:tid 820] [client 127.0.0.1:53254] script 'C:/wamp/www/updates.php' not found or unable to stat
+[Fri May 15 13:09:07.773910 2015] [:error] [pid 3668:tid 820] [client 127.0.0.1:53262] script 'C:/wamp/www/config.php' not found or unable to stat
+[Fri May 15 13:22:42.729523 2015] [:error] [pid 3668:tid 792] [client 127.0.0.1:53649] script 'C:/wamp/www/SugarCE-Full-6.5.20/instal.php' not found or unable to stat
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+[Fri May 15 17:07:29.626430 2015] [mpm_winnt:notice] [pid 2196:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:07:31.626545 2015] [mpm_winnt:notice] [pid 3668:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:07:31.717550 2015] [mpm_winnt:notice] [pid 2196:tid 400] AH00430: Parent: Child process 3668 exited successfully.
+[Fri May 15 17:07:42.173148 2015] [mpm_winnt:notice] [pid 3236:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:07:42.173148 2015] [mpm_winnt:notice] [pid 3236:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:07:42.173148 2015] [core:notice] [pid 3236:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:07:42.175148 2015] [mpm_winnt:notice] [pid 3236:tid 360] AH00418: Parent: Created child process 4116
+[Fri May 15 17:07:42.982194 2015] [mpm_winnt:notice] [pid 4116:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:07:54.671863 2015] [mpm_winnt:notice] [pid 3236:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:07:56.677978 2015] [mpm_winnt:notice] [pid 4116:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:07:56.694979 2015] [mpm_winnt:notice] [pid 3236:tid 360] AH00430: Parent: Child process 4116 exited successfully.
+[Fri May 15 17:08:05.275469 2015] [mpm_winnt:notice] [pid 7444:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:08:05.277470 2015] [mpm_winnt:notice] [pid 7444:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:08:05.277470 2015] [core:notice] [pid 7444:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:08:05.290470 2015] [mpm_winnt:notice] [pid 7444:tid 360] AH00418: Parent: Created child process 7032
+[Fri May 15 17:08:05.997511 2015] [mpm_winnt:notice] [pid 7032:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:17:03.902277 2015] [mpm_winnt:notice] [pid 7444:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:17:05.907392 2015] [mpm_winnt:notice] [pid 7032:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:17:05.941394 2015] [mpm_winnt:notice] [pid 7444:tid 360] AH00430: Parent: Child process 7032 exited successfully.
+[Fri May 15 17:17:10.007626 2015] [mpm_winnt:notice] [pid 1696:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:17:10.007626 2015] [mpm_winnt:notice] [pid 1696:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:17:10.007626 2015] [core:notice] [pid 1696:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:17:10.015627 2015] [mpm_winnt:notice] [pid 1696:tid 360] AH00418: Parent: Created child process 7564
+[Fri May 15 17:17:10.699666 2015] [mpm_winnt:notice] [pid 7564:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:24:37.987249 2015] [mpm_winnt:notice] [pid 1696:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:24:41.434446 2015] [mpm_winnt:notice] [pid 7564:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:24:41.453448 2015] [mpm_winnt:notice] [pid 1696:tid 360] AH00430: Parent: Child process 7564 exited successfully.
+[Fri May 15 17:24:44.629629 2015] [mpm_winnt:notice] [pid 7720:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:24:44.630629 2015] [mpm_winnt:notice] [pid 7720:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:24:44.630629 2015] [core:notice] [pid 7720:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:24:44.635630 2015] [mpm_winnt:notice] [pid 7720:tid 360] AH00418: Parent: Created child process 7156
+[Fri May 15 17:24:45.445676 2015] [mpm_winnt:notice] [pid 7156:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:34:14.579712 2015] [mpm_winnt:notice] [pid 7720:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:34:16.580843 2015] [mpm_winnt:notice] [pid 7156:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:34:16.615845 2015] [mpm_winnt:notice] [pid 7720:tid 360] AH00430: Parent: Child process 7156 exited successfully.
+[Fri May 15 17:34:19.709035 2015] [mpm_winnt:notice] [pid 6184:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:34:19.710035 2015] [mpm_winnt:notice] [pid 6184:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:34:19.710035 2015] [core:notice] [pid 6184:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:34:19.712035 2015] [mpm_winnt:notice] [pid 6184:tid 400] AH00418: Parent: Created child process 6452
+[Fri May 15 17:34:20.541094 2015] [mpm_winnt:notice] [pid 6452:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:35:06.107382 2015] [mpm_winnt:notice] [pid 6184:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:35:09.130567 2015] [mpm_winnt:notice] [pid 6452:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:35:09.148568 2015] [mpm_winnt:notice] [pid 6184:tid 400] AH00430: Parent: Child process 6452 exited successfully.
+[Fri May 15 17:35:11.273702 2015] [mpm_winnt:notice] [pid 8824:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:35:11.274202 2015] [mpm_winnt:notice] [pid 8824:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:35:11.274202 2015] [core:notice] [pid 8824:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:35:11.283703 2015] [mpm_winnt:notice] [pid 8824:tid 360] AH00418: Parent: Created child process 8880
+[Fri May 15 17:35:11.986752 2015] [mpm_winnt:notice] [pid 8880:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:51:28.104808 2015] [mpm_winnt:notice] [pid 8824:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:51:30.106062 2015] [mpm_winnt:notice] [pid 8880:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:51:30.126565 2015] [mpm_winnt:notice] [pid 8824:tid 360] AH00430: Parent: Child process 8880 exited successfully.
+[Fri May 15 17:51:50.760783 2015] [mpm_winnt:notice] [pid 9036:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:51:50.760783 2015] [mpm_winnt:notice] [pid 9036:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:51:50.760783 2015] [core:notice] [pid 9036:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:51:50.761783 2015] [mpm_winnt:notice] [pid 9036:tid 360] AH00418: Parent: Created child process 9100
+[Fri May 15 17:51:51.104803 2015] [mpm_winnt:notice] [pid 9100:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:51:53.470938 2015] [mpm_winnt:notice] [pid 9036:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:51:55.471053 2015] [mpm_winnt:notice] [pid 9100:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:51:55.483053 2015] [mpm_winnt:notice] [pid 9036:tid 360] AH00430: Parent: Child process 9100 exited successfully.
+[Fri May 15 17:51:59.949309 2015] [mpm_winnt:notice] [pid 6640:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 17:51:59.950309 2015] [mpm_winnt:notice] [pid 6640:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:51:59.950309 2015] [core:notice] [pid 6640:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:51:59.950309 2015] [mpm_winnt:notice] [pid 6640:tid 360] AH00418: Parent: Created child process 7812
+[Fri May 15 17:52:00.516341 2015] [mpm_winnt:notice] [pid 7812:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 17:59:12.561115 2015] [mpm_winnt:notice] [pid 6640:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 17:59:14.561369 2015] [mpm_winnt:notice] [pid 7812:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 17:59:14.580872 2015] [mpm_winnt:notice] [pid 6640:tid 360] AH00430: Parent: Child process 7812 exited successfully.
+[Fri May 15 17:59:16.131069 2015] [mpm_winnt:notice] [pid 3496:tid 400] AH00455: Apache/2.4.9 (Win64) configured -- resuming normal operations
+[Fri May 15 17:59:16.131569 2015] [mpm_winnt:notice] [pid 3496:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 17:59:16.131569 2015] [core:notice] [pid 3496:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 17:59:16.133069 2015] [mpm_winnt:notice] [pid 3496:tid 400] AH00418: Parent: Created child process 5980
+[Fri May 15 17:59:16.412604 2015] [mpm_winnt:notice] [pid 5980:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 18:01:16.923407 2015] [mpm_winnt:notice] [pid 3496:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 18:01:18.923661 2015] [mpm_winnt:notice] [pid 5980:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 15 18:01:18.949665 2015] [mpm_winnt:notice] [pid 3496:tid 400] AH00430: Parent: Child process 5980 exited successfully.
+[Fri May 15 18:01:20.553868 2015] [mpm_winnt:notice] [pid 3360:tid 360] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 18:01:20.554368 2015] [mpm_winnt:notice] [pid 3360:tid 360] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 18:01:20.554368 2015] [core:notice] [pid 3360:tid 360] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 18:01:20.555869 2015] [mpm_winnt:notice] [pid 3360:tid 360] AH00418: Parent: Created child process 2648
+[Fri May 15 18:01:20.828903 2015] [mpm_winnt:notice] [pid 2648:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri May 15 18:03:06.606335 2015] [mpm_winnt:notice] [pid 3360:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 15 18:03:08.606589 2015] [mpm_winnt:notice] [pid 2648:tid 244] AH00364: Child: All worker threads have exited.
+[Fri May 15 18:03:08.621591 2015] [mpm_winnt:notice] [pid 3360:tid 360] AH00430: Parent: Child process 2648 exited successfully.
+[Fri May 15 18:03:10.069275 2015] [mpm_winnt:notice] [pid 8680:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 15 18:03:10.069275 2015] [mpm_winnt:notice] [pid 8680:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 15 18:03:10.069275 2015] [core:notice] [pid 8680:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 15 18:03:10.070275 2015] [mpm_winnt:notice] [pid 8680:tid 400] AH00418: Parent: Created child process 6356
+[Fri May 15 18:03:10.399817 2015] [mpm_winnt:notice] [pid 6356:tid 308] AH00354: Child: Starting 64 worker threads.
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: Interlace handling should be turned on when using png_read_image
+[Sat May 16 16:44:34.722686 2015] [core:warn] [pid 5680:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 16 16:44:35.970689 2015] [mpm_winnt:notice] [pid 5680:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sat May 16 16:44:35.970689 2015] [mpm_winnt:notice] [pid 5680:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sat May 16 16:44:35.970689 2015] [core:notice] [pid 5680:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sat May 16 16:44:35.970689 2015] [mpm_winnt:notice] [pid 5680:tid 280] AH00418: Parent: Created child process 5512
+[Sat May 16 16:44:36.313889 2015] [mpm_winnt:notice] [pid 5512:tid 308] AH00354: Child: Starting 64 worker threads.
+[Sat May 16 16:45:50.470636 2015] [mpm_winnt:notice] [pid 5680:tid 280] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat May 16 16:45:52.470639 2015] [mpm_winnt:notice] [pid 5512:tid 308] AH00364: Child: All worker threads have exited.
+[Sat May 16 16:45:52.530639 2015] [mpm_winnt:notice] [pid 5680:tid 280] AH00430: Parent: Child process 5512 exited successfully.
+[Sat May 16 17:02:59.720884 2015] [mpm_winnt:notice] [pid 5200:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sat May 16 17:02:59.730884 2015] [mpm_winnt:notice] [pid 5200:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sat May 16 17:02:59.730884 2015] [core:notice] [pid 5200:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sat May 16 17:02:59.740884 2015] [mpm_winnt:notice] [pid 5200:tid 400] AH00418: Parent: Created child process 2976
+[Sat May 16 17:03:00.080885 2015] [mpm_winnt:notice] [pid 2976:tid 308] AH00354: Child: Starting 64 worker threads.
+[Sun May 17 16:02:50.826929 2015] [core:warn] [pid 2496:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 17 16:02:50.912933 2015] [mpm_winnt:notice] [pid 2496:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun May 17 16:02:50.912933 2015] [mpm_winnt:notice] [pid 2496:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun May 17 16:02:50.912933 2015] [core:notice] [pid 2496:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun May 17 16:02:50.913933 2015] [mpm_winnt:notice] [pid 2496:tid 280] AH00418: Parent: Created child process 3444
+[Sun May 17 16:02:51.205950 2015] [mpm_winnt:notice] [pid 3444:tid 308] AH00354: Child: Starting 64 worker threads.
+[Mon May 18 13:24:02.973264 2015] [core:warn] [pid 2180:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 18 13:24:03.116272 2015] [mpm_winnt:notice] [pid 2180:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon May 18 13:24:03.116272 2015] [mpm_winnt:notice] [pid 2180:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon May 18 13:24:03.116272 2015] [core:notice] [pid 2180:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon May 18 13:24:03.116272 2015] [mpm_winnt:notice] [pid 2180:tid 280] AH00418: Parent: Created child process 7920
+[Mon May 18 13:24:03.408289 2015] [mpm_winnt:notice] [pid 7920:tid 308] AH00354: Child: Starting 64 worker threads.
+[Mon May 18 13:24:30.558984 2015] [mpm_winnt:notice] [pid 2180:tid 280] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 18 13:24:32.559099 2015] [mpm_winnt:notice] [pid 7920:tid 308] AH00364: Child: All worker threads have exited.
+[Mon May 18 13:24:32.633103 2015] [mpm_winnt:notice] [pid 2180:tid 280] AH00430: Parent: Child process 7920 exited successfully.
+[Mon May 18 13:24:33.898175 2015] [mpm_winnt:notice] [pid 5660:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon May 18 13:24:33.898175 2015] [mpm_winnt:notice] [pid 5660:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon May 18 13:24:33.898175 2015] [core:notice] [pid 5660:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon May 18 13:24:33.899175 2015] [mpm_winnt:notice] [pid 5660:tid 400] AH00418: Parent: Created child process 6284
+[Mon May 18 13:24:34.309199 2015] [mpm_winnt:notice] [pid 6284:tid 308] AH00354: Child: Starting 64 worker threads.
+[Tue May 19 19:13:13.694540 2015] [core:warn] [pid 5328:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 19 19:13:14.240541 2015] [mpm_winnt:notice] [pid 5328:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue May 19 19:13:14.240541 2015] [mpm_winnt:notice] [pid 5328:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue May 19 19:13:14.240541 2015] [core:notice] [pid 5328:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue May 19 19:13:14.240541 2015] [mpm_winnt:notice] [pid 5328:tid 280] AH00418: Parent: Created child process 2980
+[Tue May 19 19:13:14.521342 2015] [mpm_winnt:notice] [pid 2980:tid 308] AH00354: Child: Starting 64 worker threads.
+[Wed May 20 22:16:04.461513 2015] [core:warn] [pid 4312:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 20 22:16:05.959116 2015] [mpm_winnt:notice] [pid 4312:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Wed May 20 22:16:05.959116 2015] [mpm_winnt:notice] [pid 4312:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Wed May 20 22:16:05.959116 2015] [core:notice] [pid 4312:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Wed May 20 22:16:05.959116 2015] [mpm_winnt:notice] [pid 4312:tid 280] AH00418: Parent: Created child process 5748
+[Wed May 20 22:16:06.317916 2015] [mpm_winnt:notice] [pid 5748:tid 308] AH00354: Child: Starting 64 worker threads.
+[Thu May 21 23:42:05.592498 2015] [:error] [pid 5748:tid 792] [client 127.0.0.1:62365] script 'C:/wamp/www/sugar/K1_House.php' not found or unable to stat, referer: http://localhost/sugar/index.php?module=K1_House&action=edit1&record=ed12086e-3d98-c01f-82c6-555e09af1947
+[Thu May 21 23:42:05.691504 2015] [:error] [pid 5748:tid 736] [client 127.0.0.1:62366] script 'C:/wamp/www/sugar/K1_House.php' not found or unable to stat, referer: http://localhost/sugar/index.php?module=K1_House&action=edit1&record=ed12086e-3d98-c01f-82c6-555e09af1947
+[Fri May 22 16:06:48.903050 2015] [core:warn] [pid 4472:tid 280] AH00098: pid file C:/wamp/bin/apache/apache2.4.9/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 22 16:06:50.806254 2015] [mpm_winnt:notice] [pid 4472:tid 280] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 22 16:06:50.806254 2015] [mpm_winnt:notice] [pid 4472:tid 280] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 22 16:06:50.806254 2015] [core:notice] [pid 4472:tid 280] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 22 16:06:50.806254 2015] [mpm_winnt:notice] [pid 4472:tid 280] AH00418: Parent: Created child process 2948
+[Fri May 22 16:06:51.196254 2015] [mpm_winnt:notice] [pid 2948:tid 308] AH00354: Child: Starting 64 worker threads.
+[Fri May 22 16:16:06.342831 2015] [mpm_winnt:notice] [pid 4472:tid 280] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri May 22 16:16:08.370835 2015] [mpm_winnt:notice] [pid 2948:tid 308] AH00364: Child: All worker threads have exited.
+[Fri May 22 16:16:08.448835 2015] [mpm_winnt:notice] [pid 4472:tid 280] AH00430: Parent: Child process 2948 exited successfully.
+[Fri May 22 16:21:55.460843 2015] [mpm_winnt:notice] [pid 4168:tid 400] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Fri May 22 16:21:55.538843 2015] [mpm_winnt:notice] [pid 4168:tid 400] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Fri May 22 16:21:55.538843 2015] [core:notice] [pid 4168:tid 400] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Fri May 22 16:21:55.538843 2015] [mpm_winnt:notice] [pid 4168:tid 400] AH00418: Parent: Created child process 5180
+[Fri May 22 16:21:56.006844 2015] [mpm_winnt:notice] [pid 5180:tid 308] AH00354: Child: Starting 64 worker threads.
